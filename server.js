@@ -35,6 +35,6 @@ app.get('/play', (req, res) => {
   res.send({computerChoice, result});
 });
 
-app.listen(3000, () => {
+app.listen(80, () => {
   console.log('Server running on http://localhost:80/');
 });
